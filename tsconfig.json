@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "module": "es2015",
+    "target": "es6",
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    "noImplicitThis": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowJs": true,
+    "lib": [
+      "dom",
+      "es6",
+      "es2015.promise"
+    ],
+    "sourceMap": true,
+    "outDir": "./target/ts"
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}
